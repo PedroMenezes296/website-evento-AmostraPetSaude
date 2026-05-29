@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-dark: #1B3A6B;
+  --brand-orange: #E8671A;
+  --brand-light: #4A9FD4;
+  --brand-bg: #F5F7FA;
+}
+
+body {
+  background-color: var(--brand-bg);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
