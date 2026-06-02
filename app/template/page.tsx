@@ -1,42 +1,43 @@
-import { Download, CheckCircle2 } from 'lucide-react'
+import { ExternalLink, CheckCircle2 } from 'lucide-react'
 import PageHeader from '@/components/ui/PageHeader'
 import Link from 'next/link'
 
 const instrucoes = [
-  'Formatação segundo as normas ABNT vigentes',
-  'Limite de 8 páginas para resumo expandido (incluindo referências)',
-  'Limite de 15 páginas para artigo completo',
-  'Fonte Times New Roman 12pt, espaçamento 1,5',
-  'Resumo em português e palavras-chave obrigatórios',
-  'Submissão exclusivamente em formato .docx via formulário online',
+  'Resumo estruturado com: Introdução, Objetivo, Método, Resultados e Considerações finais',
+  'Mínimo de 1.500 e máximo de 3.000 caracteres (com espaços)',
+  'Título em letras maiúsculas, fonte Arial 12pt, máximo de 15 palavras',
+  '3 a 5 palavras-chave separadas por ponto e vírgula',
+  '3 a 5 referências no formato ABNT',
+  'Submissão exclusivamente em formato PDF via formulário online',
   'Não é permitida a identificação dos autores no corpo do trabalho (avaliação cega)',
+  'Estudos com seres humanos devem apresentar aprovação de Comitê de Ética em Pesquisa (CAAE)',
 ]
 
 export default function TemplatePage() {
   return (
     <div>
       <PageHeader
-        icon={<Download size={20} />}
+        icon={<ExternalLink size={20} />}
         title="Template do trabalho"
-        description="Baixe o modelo oficial e siga as normas para submissão do seu trabalho."
+        description="Acesse o modelo oficial e siga as normas para submissão do seu trabalho."
       />
 
-      {/* Card de download */}
+      {/* Card de acesso */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
         <div>
-          <p className="font-semibold text-brand-dark">Template oficial (.docx)</p>
+          <p className="font-semibold text-brand-dark">Template oficial (Google Docs)</p>
           <p className="text-gray-400 text-sm mt-0.5">
-            Modelo formatado conforme as normas do evento
+            Modelo formatado conforme as normas do evento — visualize e faça sua cópia
           </p>
-          {/* TODO: substituir href pelo link real do template .docx */}
         </div>
         <a
-          href="#"
-          /* TODO: href="URL_DO_TEMPLATE_DOCX" */
+          href="https://docs.google.com/document/d/13CFS_i9m6UZnZNcBqOccb6oqtWsD4_y_BaLagZsTTWA/edit?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center gap-2 bg-brand-orange text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-brand-orange/90 transition-colors text-sm whitespace-nowrap"
         >
-          <Download size={16} />
-          Baixar template
+          <ExternalLink size={16} />
+          Acessar template
         </a>
       </div>
 

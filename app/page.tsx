@@ -21,8 +21,7 @@ export default function HomePage() {
 
       {/* Cards informativos */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-        {/* TODO: atualizar data quando definida */}
-        <InfoCard icon={<Calendar size={24} />} label="Data" value="A definir" />
+        <InfoCard icon={<Calendar size={24} />} label="Data" value="28 e 29 de agosto" />
         <InfoCard icon={<MapPin size={24} />} label="Local" value="Unipampa — Bagé/RS" />
         <InfoCard icon={<Monitor size={24} />} label="Modalidade" value="Presencial" />
       </div>
