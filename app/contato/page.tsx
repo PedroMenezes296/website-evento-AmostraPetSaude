@@ -7,15 +7,14 @@ const redes = [
   {
     icon: <Mail size={22} />,
     label: 'E-mail',
-    value: 'unipampagrupesm@gmail.com',
-    href: 'mailto:unipampagrupesm@gmail.com',
+    value: 'mostrapampaconectado@gmail.com',
+    href: 'mailto:mostrapampaconectado@gmail.com',
   },
   {
     icon: <Instagram size={22} />,
     label: 'Instagram',
-    // TODO: substituir pelo @ real do instagram do grupo
-    value: '@grupesm.unipampa',
-    href: 'https://instagram.com/grupesm.unipampa',
+    value: '@petsaude.pampaconectado',
+    href: 'https://www.instagram.com/petsaude.pampaconectado?igsh=MW14cGZoenpvcXd1OQ%3D%3D',
   },
 ]
 
