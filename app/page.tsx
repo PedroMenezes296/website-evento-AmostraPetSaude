@@ -30,7 +30,7 @@ export default function HomePage() {
       <div className="bg-white rounded-xl border-l-4 border-brand-dark p-6 lg:p-8 mb-8 shadow-sm">
         <h3 className="font-bold text-brand-dark text-xl lg:text-2xl mb-2">Sobre o evento</h3>
         <p className="text-gray-600 text-base lg:text-lg leading-relaxed">
-          A II Mostra PET Saúde Digital Pampa Conectado é um evento científico promovido pelo PET Saúde/Informação e Saúde Digital Pampa Conectado, da Universidade Federal do Pampa em parceria com as Secretarias Munnicipais de Saúde de Alegrete, Bagé, Itaqui, Jaguari e Uruguaiana.
+          A II Mostra PET Saúde Digital Pampa Conectado é um evento científico promovido pelo PET Saúde/Informação e Saúde Digital Pampa Conectado, da Universidade Federal do Pampa em parceria com as Secretarias Municipais de Saúde de Alegrete, Bagé, Itaqui, Jaguari e Uruguaiana.
           O evento reúne estudantes, profissionais e pesquisadores para compartilhar experiências e produção científica
           na interseção entre saúde e tecnologia digital, fortalecendo a rede de conhecimento no Pampa gaúcho.
         </p>
