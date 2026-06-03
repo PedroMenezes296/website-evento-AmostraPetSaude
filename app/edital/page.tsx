@@ -7,10 +7,10 @@ const editalSections = [
     title: '1. Apresentação',
     content: (
       <p>
-        A II Mostra PET-Saúde Digital — Pampa Conectado é promovida pelo grupo PET-Saúde Digital
+        A II Mostra PET Saúde Digital — Pampa Conectado é promovida pelo grupo PET Saúde Digital
         da Universidade Federal do Pampa (Unipampa), campus Bagé, e será realizada nos dias{' '}
         <strong>28 e 29 de agosto de 2026</strong>. O evento tem como propósito promover a
-        socialização das experiências, produtos e soluções desenvolvidas no âmbito do PET-Saúde,
+        socialização das experiências, produtos e soluções desenvolvidas no âmbito do PET Saúde,
         com foco na saúde digital e na inovação tecnológica no contexto do Sistema Único de Saúde (SUS).
       </p>
     ),
@@ -95,7 +95,7 @@ export default function EditalPage() {
       <PageHeader
         icon={<FileText size={20} />}
         title="Edital"
-        description="Normas, critérios e cronograma da II Mostra PET-Saúde Digital."
+        description="Normas, critérios e cronograma da II Mostra PET Saúde Digital."
       />
 
       <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 flex items-center justify-between mb-6">

@@ -69,7 +69,7 @@ function SchedulePeriod({ label, colorKey, items }: SchedulePeriodProps) {
 const dia1noite: ScheduleRow[] = [
   { horario: '18:00', atividade: 'Credenciamento e Acolhimento', responsavel: 'Comissão organizadora', local: 'Auditório' },
   { horario: '18:30', atividade: 'Mesa de abertura', responsavel: 'Coord. PET / Gestão Municipal / Unipampa', local: 'Auditório' },
-  { horario: '19:00', atividade: 'PET-Saúde Digital Pampa Conectado: trajetórias, produtos e impactos no SUS', responsavel: 'Profª Carla', local: 'Auditório' },
+  { horario: '19:00', atividade: 'PET Saúde Digital Pampa Conectado: trajetórias, produtos e impactos no SUS', responsavel: 'Profª Carla', local: 'Auditório' },
   { horario: '19:30', atividade: 'Palestra de abertura: Saúde Digital no SUS — desafios e oportunidades', responsavel: 'A confirmar', local: 'Auditório' },
 ]
 
@@ -95,7 +95,7 @@ export default function ProgramacaoPage() {
       <PageHeader
         icon={<Calendar size={20} />}
         title="Programação"
-        description="Grade de atividades da II Mostra PET-Saúde Digital — 28 e 29 de agosto de 2026."
+        description="Grade de atividades da II Mostra PET Saúde Digital — 28 e 29 de agosto de 2026."
       />
 
       <DayHeader date="28 de agosto de 2026" weekday="Sexta-feira" />

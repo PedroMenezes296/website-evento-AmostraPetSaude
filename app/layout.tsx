@@ -6,7 +6,7 @@ import AppShell from '@/components/layout/AppShell'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'II Mostra PET-Saúde Digital — Pampa Conectado',
+  title: 'II Mostra PET Saúde Digital — Pampa Conectado',
   description: 'Conhecimento que transforma dados em cuidado. Unipampa · Bagé/RS · 2026.',
 }
 

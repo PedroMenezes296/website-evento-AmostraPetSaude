@@ -17,7 +17,7 @@ export default function MobileHeader({ onOpen }: MobileHeaderProps) {
         <Menu size={24} />
       </button>
       <div>
-        <p className="text-brand-orange font-bold text-sm leading-tight">II Mostra PET-Saúde Digital</p>
+        <p className="text-brand-orange font-bold text-sm leading-tight">II Mostra PET Saúde Digital</p>
         <p className="text-brand-light text-xs leading-tight">Pampa Conectado</p>
       </div>
     </header>

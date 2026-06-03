@@ -24,7 +24,7 @@ export default function ContatoPage() {
       <PageHeader
         icon={<Mail size={20} />}
         title="Contato"
-        description="Entre em contato com a comissão organizadora da II Mostra PET-Saúde Digital."
+        description="Entre em contato com a comissão organizadora da II Mostra PET Saúde Digital."
       />
 
       {/* Cards de contato */}

@@ -27,7 +27,7 @@ export default function InscricaoPage() {
       <PageHeader
         icon={<UserPlus size={20} />}
         title="Inscrição de ouvintes"
-        description="Participe da II Mostra PET-Saúde Digital como ouvinte e garanta seu certificado."
+        description="Participe da II Mostra PET Saúde Digital como ouvinte e garanta seu certificado."
       />
 
       {/* Card principal de inscrição */}

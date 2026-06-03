@@ -7,15 +7,15 @@ export default function SobrePage() {
       <PageHeader
         icon={<Info size={20} />}
         title="Sobre o evento"
-        description="Conheça a história, os objetivos e quem organiza a II Mostra PET-Saúde Digital."
+        description="Conheça a história, os objetivos e quem organiza a II Mostra PET Saúde Digital."
       />
 
       {/* Descrição do evento */}
       <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-6 mb-6">
         <h2 className="font-bold text-brand-dark text-lg mb-3">O evento</h2>
         <p className="text-gray-600 text-sm leading-relaxed mb-3">
-          A II Mostra PET-Saúde Digital — Pampa Conectado é um evento científico anual organizado
-          pelo grupo PET-Saúde Digital da Universidade Federal do Pampa (Unipampa), campus Bagé/RS.
+          A II Mostra PET Saúde Digital — Pampa Conectado é um evento científico anual organizado
+          pelo grupo PET Saúde Digital da Universidade Federal do Pampa (Unipampa), campus Bagé/RS.
           O evento tem como propósito promover o compartilhamento de conhecimento científico e
           tecnológico produzido na interface entre saúde e tecnologia digital.
         </p>
