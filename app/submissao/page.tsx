@@ -52,7 +52,6 @@ export default function SubmissaoPage() {
             <div className="text-brand-light mt-0.5">{t.icon}</div>
             <div>
               <p className="font-semibold text-brand-dark text-sm">{t.label}</p>
-              <p className="text-gray-400 text-xs">{t.desc}</p>
             </div>
           </div>
         ))}
