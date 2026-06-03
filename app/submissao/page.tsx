@@ -4,18 +4,15 @@ import Link from 'next/link'
 import { LINKS } from '@/config/links'
 
 const normas = [
-  'Resumo expandido ou artigo completo em formato .docx',
   'Formatação conforme o template oficial (veja a seção Template)',
   'Avaliação cega por pares — sem identificação dos autores no arquivo',
-  'Máximo de 3 autores por trabalho',
   // TODO: inserir prazo real de submissão
-  'Prazo de submissão: a definir',
+  'Cada autor(a) poderá submeter até dois trabalhos como autor(a) principal.',
+  'Cada trabalho deverá ter um orientador(a) e até sete coautores.',
 ]
 
 const tipos = [
-  { label: 'Resumo expandido', desc: 'Até 8 páginas', icon: <FileText size={18} /> },
-  { label: 'Relato de experiência', desc: 'Até 10 páginas', icon: <FileText size={18} /> },
-  { label: 'Artigo completo', desc: 'Até 15 páginas', icon: <FileText size={18} /> },
+  { label: 'Resumo simples', icon: <FileText size={18} /> },
 ]
 
 export default function SubmissaoPage() {
@@ -49,7 +46,7 @@ export default function SubmissaoPage() {
 
       {/* Tipos aceitos */}
       <h2 className="font-bold text-brand-dark text-base mb-3">Modalidades aceitas</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+      <div className="grid grid-cols-1 gap-4 mb-8">
         {tipos.map((t, i) => (
           <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 flex items-start gap-3">
             <div className="text-brand-light mt-0.5">{t.icon}</div>

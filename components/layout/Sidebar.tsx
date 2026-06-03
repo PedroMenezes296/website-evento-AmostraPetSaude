@@ -109,7 +109,7 @@ export default function Sidebar({ currentPath, mobileOpen, onClose }: SidebarPro
 
         {/* Header da sidebar */}
         <div className="px-1 pt-1 pb-3 border-b border-white/10">
-          <div className="flex flex-col items-center text-center gap-2">
+          <div className="flex flex-col items-center text-center">
             <Image
               src="/logo.png"
               alt="Logo II Mostra PET-Saúde Digital"
@@ -117,10 +117,6 @@ export default function Sidebar({ currentPath, mobileOpen, onClose }: SidebarPro
               height={400}
               className="rounded-md w-full"
             />
-            <div>
-              <p className="text-brand-orange font-bold text-sm leading-tight">II Mostra PET-Saúde Digital</p>
-              <p className="text-brand-light text-xs leading-tight mt-0.5">Pampa Conectado</p>
-            </div>
           </div>
         </div>
 

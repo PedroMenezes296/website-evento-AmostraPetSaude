@@ -6,10 +6,11 @@ import { ChevronDown } from 'lucide-react'
 interface AccordionItemProps {
   title: string
   children: ReactNode
+  defaultOpen?: boolean
 }
 
-export function AccordionItem({ title, children }: AccordionItemProps) {
-  const [open, setOpen] = useState(false)
+export function AccordionItem({ title, children, defaultOpen = false }: AccordionItemProps) {
+  const [open, setOpen] = useState(defaultOpen)
 
   return (
     <div className="border border-gray-200 rounded-xl mb-3 overflow-hidden">
@@ -33,14 +34,14 @@ export function AccordionItem({ title, children }: AccordionItemProps) {
 }
 
 interface AccordionProps {
-  items: { title: string; content: ReactNode }[]
+  items: { title: string; content: ReactNode; defaultOpen?: boolean }[]
 }
 
 export default function Accordion({ items }: AccordionProps) {
   return (
     <div>
       {items.map((item, i) => (
-        <AccordionItem key={i} title={item.title}>
+        <AccordionItem key={i} title={item.title} defaultOpen={item.defaultOpen}>
           {item.content}
         </AccordionItem>
       ))}

@@ -74,11 +74,11 @@ const dia1noite: ScheduleRow[] = [
 ]
 
 const dia2manha: ScheduleRow[] = [
-  { horario: '9:00–12:00', atividade: 'Oficina 1: IA para engenharia', responsavel: 'Jeferson', local: 'Laboratório 2408' },
-  { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo', local: 'Sala 2402' },
-  { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice', local: 'Lab de computação' },
-  { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro', local: 'Lab de computação' },
-  { horario: '9:00–12:00', atividade: 'Oficina 5: Indicadores de financiamento da saúde', responsavel: 'A confirmar', local: 'Sala 2404' },
+  { horario: '9:00–12:00', atividade: 'Oficina 1: IA para engenharia', responsavel: 'Jeferson Rafael Bueno', local: 'Laboratório 2408' },
+  { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo Brandao Mansilha', local: 'Sala 2402' },
+  { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice Fonseca Finger', local: 'Lab de computação' },
+  { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro Da Silva Camargo', local: 'Lab de computação' },
+  { horario: '9:00–12:00', atividade: 'Oficina 5: Indicadores de financiamento da saúde', responsavel: 'Gabriel Carpes Irala', local: 'Sala 2404' },
   { horario: '10:30', atividade: 'Coffee break', responsavel: '—', local: 'Hall' },
 ]
 
@@ -95,15 +95,15 @@ export default function ProgramacaoPage() {
       <PageHeader
         icon={<Calendar size={20} />}
         title="Programação"
-        description="Grade de atividades da II Mostra PET Saúde Digital — 28 e 29 de agosto de 2026."
+        description="Grade de atividades da II Mostra PET Saúde Digital Pampa Conectado — 28 e 29 de agosto de 2026."
       />
 
       <DayHeader date="28 de agosto de 2026" weekday="Sexta-feira" />
-      <SchedulePeriod label="Noite — Auditório" colorKey="purple" items={dia1noite} />
+      <SchedulePeriod label="Noite" colorKey="purple" items={dia1noite} />
 
       <DayHeader date="29 de agosto de 2026" weekday="Sábado" />
-      <SchedulePeriod label="Manhã — Oficinas simultâneas (9:00–12:00)" colorKey="blue" items={dia2manha} />
-      <SchedulePeriod label="Tarde — Apresentações científicas (14:00)" colorKey="orange" items={dia2tarde} />
+      <SchedulePeriod label="Manhã" colorKey="blue" items={dia2manha} />
+      <SchedulePeriod label="Tarde" colorKey="orange" items={dia2tarde} />
     </div>
   )
 }
