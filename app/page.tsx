@@ -42,14 +42,14 @@ export default function HomePage() {
         <ActionCard
           icon={<UserPlus size={26} />}
           title="Inscrição de ouvintes"
-          description="Participe do evento como ouvinte e garanta seu certificado de participação."
+          description={`Garanta sua vaga como ouvinte e participe da II Mostra PET-Saúde Digital Pampa Conectado.\nPrazo: 28 de agosto de 2026.`}
           buttonLabel="Acessar formulário →"
           href={LINKS.formsInscricao}
         />
         <ActionCard
           icon={<Upload size={26} />}
           title="Submissão de trabalhos"
-          description="Submeta seu trabalho científico e apresente suas pesquisas no evento."
+          description={`Submeta seu trabalho científico e compartilhe sua produção na II Mostra PET-Saúde Digital Pampa Conectado.\nPrazo: 30 de junho de 2026.`}
           buttonLabel="Acessar formulário →"
           href={LINKS.formsSubmissao}
         />
