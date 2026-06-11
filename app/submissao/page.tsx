@@ -6,7 +6,7 @@ import { LINKS } from '@/config/links'
 const normas = [
   'Formatação conforme o template oficial (veja a seção Template)',
   'Avaliação cega por pares — sem identificação dos autores no arquivo',
-  // TODO: inserir prazo real de submissão
+  'Prazo de submissão: até 30 de junho de 2026.',
   'Cada autor(a) poderá submeter até dois trabalhos como autor(a) principal.',
   'Cada trabalho deverá ter um orientador(a) e até sete coautores.',
 ]
