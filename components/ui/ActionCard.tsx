@@ -16,7 +16,7 @@ export default function ActionCard({ icon, title, description, buttonLabel, href
         {icon}
       </div>
       <h3 className={`font-semibold text-brand-dark ${large ? 'text-xl lg:text-2xl mb-2' : 'text-base lg:text-xl mb-1'}`}>{title}</h3>
-      <p className="text-gray-500 text-sm lg:text-base flex-1 leading-relaxed mb-4">{description}</p>
+      <p className="text-gray-500 text-sm lg:text-base flex-1 leading-relaxed mb-4 whitespace-pre-line">{description}</p>
       <a
         href={href}
         target="_blank"
