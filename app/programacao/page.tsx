@@ -70,11 +70,11 @@ const dia1noite: ScheduleRow[] = [
   { horario: '18:00', atividade: 'Credenciamento e Acolhimento', responsavel: 'Comissão organizadora', local: 'Auditório' },
   { horario: '18:30', atividade: 'Mesa de abertura', responsavel: 'Coord. PET / Gestão Municipal / Unipampa', local: 'Auditório' },
   { horario: '19:00', atividade: 'PET Saúde Digital Pampa Conectado: trajetórias, produtos e impactos no SUS', responsavel: 'Profª Carla', local: 'Auditório' },
-  { horario: '19:30', atividade: 'Palestra de abertura: Saúde Digital no SUS — desafios e oportunidades', responsavel: 'A confirmar', local: 'Auditório' },
+  { horario: '19:30', atividade: 'Palestra de abertura: Saúde Digital sob uma Perspectiva de um Cientista da Computação: Desafios, Oportunidades e Futuro', responsavel: 'Muriel Figueredo Franco', local: 'Auditório' },
 ]
 
 const dia2manha: ScheduleRow[] = [
-  { horario: '9:00–12:00', atividade: 'Oficina 1: IA para engenharia', responsavel: 'Jeferson Rafael Bueno', local: 'Laboratório 2408' },
+  { horario: '9:00–12:00', atividade: 'Oficina 1: Inteligência Artificial na Prática: Classificação com KNN utilizando MATLAB', responsavel: 'Jeferson Rafael Bueno', local: 'Laboratório 2408' },
   { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo Brandao Mansilha', local: 'Sala 2402' },
   { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice Fonseca Finger', local: 'Lab de computação' },
   { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro Da Silva Camargo', local: 'Lab de computação' },

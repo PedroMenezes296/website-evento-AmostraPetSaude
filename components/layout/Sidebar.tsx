@@ -7,6 +7,7 @@ import {
   Home,
   FileText,
   Calendar,
+  FileCheck,
   Download,
   UserPlus,
   Upload,
@@ -44,6 +45,7 @@ const navSections: NavSection[] = [
     items: [
       { label: 'Edital', href: '/edital', icon: <FileText size={18} /> },
       { label: 'Programação', href: '/programacao', icon: <Calendar size={18} /> },
+      { label: 'Trabalhos aprovados', href: '/trabalhos-aprovados', icon: <FileCheck size={18} /> },
       { label: 'Template do trabalho', href: '/template', icon: <Download size={18} /> },
     ],
   },
