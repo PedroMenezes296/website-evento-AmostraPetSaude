@@ -9,6 +9,7 @@ import {
   Calendar,
   FileCheck,
   Download,
+  BookOpen,
   UserPlus,
   Upload,
   Info,
@@ -47,6 +48,7 @@ const navSections: NavSection[] = [
       { label: 'Programação', href: '/programacao', icon: <Calendar size={18} /> },
       { label: 'Trabalhos aprovados', href: '/trabalhos-aprovados', icon: <FileCheck size={18} /> },
       { label: 'Template do trabalho', href: '/template', icon: <Download size={18} /> },
+      { label: 'Guias do evento', href: '/guias', icon: <BookOpen size={18} /> },
     ],
   },
   {
