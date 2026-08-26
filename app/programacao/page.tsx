@@ -1,4 +1,5 @@
-import { Calendar } from 'lucide-react'
+import Link from 'next/link'
+import { Calendar, MapPin, ArrowRight } from 'lucide-react'
 import PageHeader from '@/components/ui/PageHeader'
 
 interface ScheduleRow {
@@ -74,18 +75,18 @@ const dia1noite: ScheduleRow[] = [
 ]
 
 const dia2manha: ScheduleRow[] = [
-  { horario: '9:00–12:00', atividade: 'Oficina 1: Inteligência Artificial na Prática: Classificação com KNN utilizando MATLAB', responsavel: 'Jeferson Rafael Bueno', local: 'Laboratório 2408' },
-  { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo Brandao Mansilha', local: 'Sala 2402' },
-  { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice Fonseca Finger', local: 'Lab de computação' },
-  { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro Da Silva Camargo', local: 'Lab de computação' },
+  { horario: '9:00–12:00', atividade: 'Oficina 1: Inteligência Artificial na Prática: Classificação com KNN utilizando MATLAB', responsavel: 'Jeferson Rafael Bueno', local: 'Lab 2306' },
+  { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo Brandao Mansilha', local: 'Lab 2311' },
+  { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice Fonseca Finger', local: 'Lab 2308' },
+  { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro Da Silva Camargo', local: 'Lab 2309' },
   { horario: '9:00–12:00', atividade: 'Oficina 5: Indicadores de financiamento da saúde', responsavel: 'Gabriel Carpes Irala', local: 'Sala 2404' },
-  { horario: '10:30', atividade: 'Coffee break', responsavel: '—', local: 'Hall' },
+  { horario: '10:30', atividade: 'Coffee break', responsavel: '—', local: 'Hall 3º andar Bloco 2, em frente aos labs' },
 ]
 
 const dia2tarde: ScheduleRow[] = [
-  { horario: '14:00', atividade: 'Eixo 1: Cultura de saúde digital, formação e educação permanente em saúde', responsavel: 'Avaliadores', local: 'Sala 2402' },
-  { horario: '14:00', atividade: 'Eixo 2: Soluções tecnológicas e serviços de saúde digital no âmbito do SUS', responsavel: 'Avaliadores', local: 'Sala 2404' },
-  { horario: '14:00', atividade: 'Eixo 3: Interoperabilidade, análise e disseminação de dados e informações de saúde', responsavel: 'Avaliadores', local: 'Sala 2406' },
+  { horario: '14:00', atividade: 'Eixo 1: Cultura de saúde digital, formação e educação permanente em saúde', responsavel: 'Avaliadores', local: 'Salas 2402, 2205, 2302' },
+  { horario: '14:00', atividade: 'Eixo 2: Soluções tecnológicas e serviços de saúde digital no âmbito do SUS', responsavel: 'Avaliadores', local: 'Salas 2404, 2303, 2305' },
+  { horario: '14:00', atividade: 'Eixo 3: Interoperabilidade, análise e disseminação de dados e informações de saúde', responsavel: 'Avaliadores', local: 'Salas 2406, 2304' },
   { horario: 'Após apresentações', atividade: 'Premiação e encerramento', responsavel: 'Comissão organizadora', local: 'Auditório' },
 ]
 
@@ -104,6 +105,25 @@ export default function ProgramacaoPage() {
       <DayHeader date="29 de agosto de 2026" weekday="Sábado" />
       <SchedulePeriod label="Manhã" colorKey="blue" items={dia2manha} />
       <SchedulePeriod label="Tarde" colorKey="orange" items={dia2tarde} />
+
+      <div className="bg-brand-dark rounded-xl shadow-sm p-6 mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0">
+            <MapPin size={20} className="text-brand-orange" />
+          </div>
+          <div>
+            <p className="font-bold text-white">Confira o local e horário do seu trabalho</p>
+            <p className="text-sm text-white/70">Consulte a lista de trabalhos aprovados com sala e horário de apresentação.</p>
+          </div>
+        </div>
+        <Link
+          href="/trabalhos-aprovados"
+          className="inline-flex items-center gap-2 bg-brand-orange text-white font-semibold px-5 py-2.5 rounded-lg hover:bg-brand-orange/90 transition-colors whitespace-nowrap"
+        >
+          Ver trabalhos aprovados
+          <ArrowRight size={16} />
+        </Link>
+      </div>
     </div>
   )
 }
