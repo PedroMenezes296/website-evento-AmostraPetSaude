@@ -13,6 +13,7 @@ import {
   UserPlus,
   Upload,
   Info,
+  Wifi,
   Mail,
   X,
   ChevronDown,
@@ -63,6 +64,7 @@ const navSections: NavSection[] = [
     title: 'INSTITUCIONAL',
     items: [
       { label: 'Sobre o evento', href: '/sobre', icon: <Info size={18} /> },
+      { label: 'Wi-Fi no evento', href: '/wifi', icon: <Wifi size={18} /> },
       { label: 'Contato', href: '/contato', icon: <Mail size={18} /> },
     ],
   },
