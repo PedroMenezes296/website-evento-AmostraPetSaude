@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Calendar, MapPin, ArrowRight } from 'lucide-react'
 import PageHeader from '@/components/ui/PageHeader'
+import RoomChangeAlert from '@/components/ui/RoomChangeAlert'
 
 interface ScheduleRow {
   horario: string
@@ -98,6 +99,8 @@ export default function ProgramacaoPage() {
         title="Programação"
         description="Grade de atividades da II Mostra PET Saúde Digital Pampa Conectado — 28 e 29 de agosto de 2026."
       />
+
+      <RoomChangeAlert />
 
       <DayHeader date="28 de agosto de 2026" weekday="Sexta-feira" />
       <SchedulePeriod label="Noite" colorKey="purple" items={dia1noite} />
