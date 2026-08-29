@@ -3,6 +3,7 @@
 import { useMemo, useState } from 'react'
 import { FileCheck, Search, MapPin, X, ListFilter } from 'lucide-react'
 import PageHeader from '@/components/ui/PageHeader'
+import RoomChangeAlert from '@/components/ui/RoomChangeAlert'
 
 interface Trabalho {
   titulo: string
@@ -180,6 +181,8 @@ export default function TrabalhosAprovadosPage() {
         title="Trabalhos aprovados"
         description="Confira os trabalhos aprovados para apresentação na II Mostra PET Saúde Digital Pampa Conectado, organizados por eixo temático e sala."
       />
+
+      <RoomChangeAlert />
 
       {/* Estatísticas */}
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6">
