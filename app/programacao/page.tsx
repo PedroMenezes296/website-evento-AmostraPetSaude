@@ -79,14 +79,14 @@ const dia2manha: ScheduleRow[] = [
   { horario: '9:00–12:00', atividade: 'Oficina 2: Lei Geral de Proteção de Dados Pessoais (LGPD)', responsavel: 'Rodrigo Brandao Mansilha', local: 'Lab 2311' },
   { horario: '9:00–12:00', atividade: 'Oficina 3: e-SUS', responsavel: 'Alice Fonseca Finger', local: 'Lab 2308' },
   { horario: '9:00–12:00', atividade: 'Oficina 4: Análise de dados do DATASUS', responsavel: 'Sandro Da Silva Camargo', local: 'Lab 2309' },
-  { horario: '9:00–12:00', atividade: 'Oficina 5: Indicadores de financiamento da saúde', responsavel: 'Gabriel Carpes Irala', local: 'Sala 2404' },
+  { horario: '9:00–12:00', atividade: 'Oficina 5: Indicadores de financiamento da saúde', responsavel: 'Gabriel Carpes Irala', local: 'Sala 2104' },
   { horario: '10:30', atividade: 'Coffee break', responsavel: '—', local: 'Hall 3º andar Bloco 2, em frente aos labs' },
 ]
 
 const dia2tarde: ScheduleRow[] = [
-  { horario: '14:00', atividade: 'Eixo 1: Cultura de saúde digital, formação e educação permanente em saúde', responsavel: 'Avaliadores', local: 'Salas 2402, 2205, 2302' },
-  { horario: '14:00', atividade: 'Eixo 2: Soluções tecnológicas e serviços de saúde digital no âmbito do SUS', responsavel: 'Avaliadores', local: 'Salas 2404, 2303, 2305' },
-  { horario: '14:00', atividade: 'Eixo 3: Interoperabilidade, análise e disseminação de dados e informações de saúde', responsavel: 'Avaliadores', local: 'Salas 2406, 2304' },
+  { horario: '14:00', atividade: 'Eixo 1: Cultura de saúde digital, formação e educação permanente em saúde', responsavel: 'Avaliadores', local: 'Salas 2103, 2205, 2302' },
+  { horario: '14:00', atividade: 'Eixo 2: Soluções tecnológicas e serviços de saúde digital no âmbito do SUS', responsavel: 'Avaliadores', local: 'Salas 2104, 2303, 2305' },
+  { horario: '14:00', atividade: 'Eixo 3: Interoperabilidade, análise e disseminação de dados e informações de saúde', responsavel: 'Avaliadores', local: 'Salas 2206, 2304' },
   { horario: 'Após apresentações', atividade: 'Premiação e encerramento', responsavel: 'Comissão organizadora', local: 'Auditório' },
 ]
 
